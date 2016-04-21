@@ -14,7 +14,7 @@ http.createServer(function(req, res) {
     res.write(parseDate(urlPath));
   }
   res.end();
-}).listen(8000);
+}).listen(process.env.PORT || 8000);
 
 function parseDate(date) {
   var unix, natural;
