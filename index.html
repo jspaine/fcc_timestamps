@@ -1,10 +1,20 @@
 <head>
   <title>Timestamp microservice</title>
+  <style>
+    body { margin: 20px; font-family: sans; }
+    pre { margin: 5px; padding-top: 6px; line-height: 18px; background-color: #ccc; }
+  </style>
 </head>
 <body>
   <h1>Timestamp microservice</h1>  
   <h2>Example usage:</h2>
-  <code>https://timestamp-ms.herokuapp.com/December 15, 2015</code>
+  <pre>
+    https://fierce-fjord-18116.herokuapp.com/December 15, 2015
+    https://fierce-fjord-18116.herokuapp.com/Dec 15 2015
+    https://fierce-fjord-18116.herokuapp.com/12-15-2015
+  </pre>
   <h2>Example output:</h2>
-  <code>{ "unix": 1450137600, "natural": "December 15, 2015" }</code>
+  <pre>
+    { "unix": 1450137600, "natural": "December 15, 2015" }
+  </pre>
 </body>
